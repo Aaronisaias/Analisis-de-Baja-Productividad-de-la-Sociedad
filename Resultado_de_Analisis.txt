@@ -1,0 +1,147 @@
+1. ¿Cuál es el Promedio de sueño de las personas en General?
+
+Resultado de la consola:
+6.509683333333333
+
+Respuesta profesional:
+En promedio, las personas de este dataset duermen aproximadamente **6.51 horas por noche**. Este valor está **por debajo de las 7–8 horas recomendadas** para un descanso óptimo. Esto significa que, de forma general, la población analizada duerme algo menos de lo ideal, lo que puede explicar sensación de cansancio crónico, menor capacidad de concentración y menor productividad diaria.
+
+------------------------------------------------------------
+
+2. ¿Cuál es el % del uso de los dispositivos?
+
+Resultado de la consola:
+22.923033333333333
+
+Respuesta profesional:
+Interpretamos esta pregunta como **porcentaje promedio del día que las personas pasan usando dispositivos con pantalla** (móvil, ordenador, etc.). El resultado indica que, en promedio, las personas pasan **aprox. 22.92 % del día** frente a pantallas, es decir, unas **5.50 horas diarias** (22.92 % de 24 horas). Este nivel de exposición a pantallas es elevado y, combinado con un sueño reducido, puede aumentar la fatiga mental, la sobrecarga cognitiva y dificultar la desconexión antes de dormir, impactando negativamente en la productividad.
+
+------------------------------------------------------------
+
+3. ¿Cuál es el Promedio del uso de la Pantalla antes de Dormir?
+
+Resultado de la consola:
+59.708933333333334
+
+Respuesta profesional:
+Las personas usan el móvil (u otros dispositivos) **unos 59.7 minutos en promedio antes de dormir**. Estar casi **una hora con el teléfono antes de acostarse** es un factor conocido que **empeora la calidad del sueño**, porque la luz azul y la estimulación constante (redes, vídeos, mensajes) mantienen el cerebro activo. Esto hace más difícil conciliar el sueño y lograr un descanso profundo, lo que contribuye a sentirse más cansado al día siguiente y reducir la productividad.
+
+------------------------------------------------------------
+
+4. ¿Qué Profesión tiene más uso de los Dispositivos?
+
+Resultado de la consola:
+profesion
+Student              5.634970
+Software Engineer    5.550402
+Manager              5.543012
+Doctor               5.492612
+Teacher              5.469950
+Researcher           5.455237
+Designer             5.451655
+Freelancer           5.409471
+Name: horas_pantalla_diarias, dtype: float64
+
+Respuesta profesional:
+La profesión con **mayor uso diario de dispositivos** (en horas de pantalla promedio) es **Student (Estudiante)** con unas **5.63 horas diarias**. Le siguen de cerca **Software Engineer**, **Manager** y **Doctor**, todos con más de **5.49 horas diarias** de pantalla. Esto sugiere que tanto los estudiantes como las profesiones altamente digitales o de alta responsabilidad pasan muchas horas conectados, lo que puede aumentar la fatiga mental y dificultar la desconexión necesaria para un sueño reparador.
+
+------------------------------------------------------------
+
+5. ¿Cuál es el Promedio por Edad de Rango que más uso de la Pantalla tiene y menos horas de Sueños?
+
+Resultado de la consola:
+            horas_pantalla_diarias  horas_sueno
+rango_edad                                     
+55-64                     5.598967     6.485017
+35-44                     5.519005     6.527499
+25-34                     5.485914     6.515662
+45-54                     5.481243     6.502313
+0-24                      5.457628     6.502331
+
+Respuesta profesional:
+El rango de edad con **mayor uso de pantalla** es **55–64 años**, con unas **5.60 horas diarias de pantalla** y un promedio de **6.49 horas de sueño**. Aunque las diferencias entre rangos de edad son pequeñas, se observa que **todos los rangos se mueven alrededor de 5.45–5.60 horas de pantalla** y **aprox. 6.48–6.53 horas de sueño**. Esto indica que el uso intenso de pantallas y el sueño ligeramente reducido no son problemas exclusivos de los jóvenes: también se dan de manera consistente en edades medias y mayores, lo que puede explicar cansancio y baja productividad en todas las etapas de la vida adulta.
+
+------------------------------------------------------------
+
+6. ¿Cuál es el Porcentaje que más tiene Nivel de Estrés por Rango de Edad?
+
+Resultado de la consola:
+            cantidad  ...  porcentaje_alto_estres
+rango_edad            ...                        
+55-64           1752  ...               46.917808
+35-44           3658  ...               44.778568
+0-24            2420  ...               44.173554
+25-34           3647  ...               44.008774
+45-54           3523  ...               43.485666
+
+[5 rows x 4 columns]
+
+Respuesta profesional:
+Definimos **“alto estrés”** como un **nivel_estres ≥ 8**. El rango de edad con **mayor porcentaje de personas con alto nivel de estrés** es **55–64 años**, con aproximadamente **46.9 %** de personas en alto estrés. Le siguen los rangos **35–44 años (44.78 %)** y **0–24 años (44.17 %)**. Esto muestra que **casi la mitad de las personas, en todos los rangos de edad, están en niveles altos de estrés**, lo que es muy significativo: el estrés crónico se asocia a peor calidad de sueño, agotamiento mental y menor productividad tanto en el trabajo como en los estudios.
+
+------------------------------------------------------------
+
+7. ¿Cuál es la Profesión que más Nivel de Estrés tiene con Promedio?
+
+Resultado de la consola:
+profesion
+Student              7.184879
+Manager              7.060031
+Software Engineer    7.024262
+Doctor               6.968330
+Researcher           6.923217
+Freelancer           6.899334
+Teacher              6.897791
+Designer             6.873855
+Name: nivel_estres, dtype: float64
+
+Respuesta profesional:
+La profesión con **mayor nivel de estrés promedio** es **Student (Estudiante)** con un valor medio de **7.18** en la escala de estrés. Le siguen **Manager (7.06)** y **Software Engineer (7.02)**. Esto indica que tanto los estudiantes como quienes ocupan cargos de gestión o altamente técnicos manejan niveles de estrés muy altos. El estrés elevado, sumado a muchas horas de pantalla y un sueño reducido, crea un entorno perfecto para la **fatiga constante y la baja productividad** (dificultad para concentrarse, procrastinación, sensación de estar “quemado”).
+
+------------------------------------------------------------
+
+8. ¿Cuál es el Promedio de Puntación de Sueños por Rango de Duración horas de Sueño?
+
+Resultado de la consola:
+rango_horas_sueno
+5-7h    6.260541
+7-9h    6.253960
+0-5h    6.202944
+Name: puntaje_calidad_sueno, dtype: float64
+
+Respuesta profesional:
+La **calidad del sueño** (puntaje_calidad_sueno) mejora ligeramente cuando las personas duermen **entre 5 y 7 horas (6.26)** o **entre 7 y 9 horas (6.25)**, en comparación con quienes duermen **menos de 5 horas (6.20)**. Aunque las diferencias son pequeñas, se observa que **dormir muy poco (0–5h)** se asocia con una **peor calidad de sueño percibida**. Esto refuerza la idea de que **no solo importan las horas, sino también la calidad**, y que el sueño corto y fragmentado contribuye a la sensación de agotamiento y a la baja eficiencia durante el día.
+
+------------------------------------------------------------
+
+9. ¿Cuál es el Promedio de las Tazas de Cafeína por Horas diarias de Sueño?
+
+Resultado de la consola:
+rango_horas_sueno
+0-5h    2.017299
+5-7h    1.998997
+7-9h    1.989351
+Name: tazas_cafeina, dtype: float64
+
+Respuesta profesional:
+Las personas que **duermen menos de 5 horas** consumen en promedio **≈ 2.02 tazas de cafeína al día**, ligeramente más que quienes duermen **5–7 horas (≈ 2.00 tazas)** o **7–9 horas (≈ 1.99 tazas)**. Aunque las diferencias son pequeñas, el patrón sugiere que **a menor duración del sueño, el consumo de cafeína tiende a ser algo mayor**, probablemente como intento de compensar la somnolencia diurna. Este círculo (poco sueño → más cafeína → posible dificultad para dormir bien) puede mantener a las personas en un estado de cansancio constante.
+
+------------------------------------------------------------
+
+10. ¿Qué Profesión tiene mayor Productividad?
+
+Resultado de la consola:
+profesion
+Designer             0.131565
+Teacher              0.082918
+Researcher           0.073674
+Freelancer           0.069909
+Doctor               0.009897
+Software Engineer   -0.058174
+Manager             -0.082686
+Student             -0.215122
+Name: indice_productividad, dtype: float64
+
+Respuesta profesional:
+No existe una columna directa de productividad en la base de datos, por lo que definimos un **índice de productividad** combinando: **mayor calidad de sueño**, **menor fatiga mental** y **menor nivel de estrés**. Bajo este índice, la profesión con **mayor productividad relativa** es **Designer**, seguida por **Teacher**, **Researcher** y **Freelancer**. Las profesiones con peor índice son **Student** y **Manager**, lo que encaja con sus altos niveles de estrés y demanda mental. En términos generales, los resultados muestran que **más estrés y más fatiga mental, combinados con sueño algo insuficiente, se traducen en menor productividad**, mientras que profesiones donde el equilibrio sueño–estrés–fatiga es algo mejor muestran una productividad potencialmente más alta.
+
